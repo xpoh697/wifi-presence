@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "WiFi Presence",
+        "description": "Настройка префикса MQTT топика для демона wifi-presence на OpenWrt",
+        "data": {
+          "topic_prefix": "Префикс топика MQTT"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Этот префикс топика уже настроен",
+      "mqtt_required": "Требуется настроенная интеграция MQTT в Home Assistant."
+    }
+  }
+}

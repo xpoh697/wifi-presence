@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "WiFi Presence",
+        "description": "Configure MQTT Topic Prefix for OpenWrt wifi-presence daemon",
+        "data": {
+          "topic_prefix": "MQTT Topic Prefix"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This topic prefix is already configured",
+      "mqtt_required": "The MQTT integration is required. Please set up MQTT in Home Assistant first."
+    }
+  }
+}
