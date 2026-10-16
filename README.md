@@ -1,4 +1,12 @@
-# wifi-presence ![CI](https://github.com/awilliams/wifi-presence/workflows/CI/badge.svg?branch=main) [![Go Reference](https://pkg.go.dev/badge/github.com/awilliams/wifi-presence.svg)](https://pkg.go.dev/github.com/awilliams/wifi-presence)
+<h1 align="center">WiFi Presence — Home Assistant Integration</h1>
+
+<p align="center">
+  <a href="https://github.com/hacs/default"><img src="https://img.shields.io/badge/HACS-Custom-orange.svg" alt="HACS"></a>
+  <a href="https://github.com/xpoh697/wifi-presence/releases"><img src="https://img.shields.io/github/v/release/xpoh697/wifi-presence?include_prereleases" alt="Release"></a>
+  <a href="https://github.com/xpoh697/wifi-presence/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+</p>
+
+**Автор:** [xpoh697](https://github.com/xpoh697)
 
 Presence detection on OpenWrt routers using connect/disconnect events of WiFi clients. Events are published to MQTT with Home Assistant integration.
 
